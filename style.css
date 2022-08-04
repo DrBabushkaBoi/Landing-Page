@@ -1,0 +1,33 @@
+*{
+    font-family: "roboto";
+}
+.header{
+    background-color: #1F2937;
+    color: white;
+
+}
+body{
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+h3{
+    font-size: 48px;
+    color: #F9FAF8;
+
+}
+.body1{
+    background-color: white;
+}
+.body2{
+    background-color: #E5E7EB;
+}
+.body3{
+    background-color: white;
+}
+.footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+}
