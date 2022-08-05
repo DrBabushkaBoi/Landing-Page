@@ -1,19 +1,56 @@
 *{
-    font-family: "roboto";
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .header{
     background-color: #1F2937;
     color: white;
-    
-
+    height: 500px;
 }
 .upper-header{
     display: flex;
     justify-content: space-between;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+.logo{
+    margin-top: 10px;
+}
+.links{
+    margin-top: 10px;
+}
+.lower-header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 150px;
+    margin-left: 90px;
+}
+.lower-header p{
+    margin-top: -10px;
+    color: #E5E7EB;
+}
+.lower-header h3{
+    font-size: 48px;
+    margin-top: 100px;
+}
+.lower-header button{
+    width: 100px;
+    height: 25px;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+}
+.head-pic{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-right: 90px;
+    margin-top: 100px;
+
 }
 body{
     margin: 0 auto;
-    width: 960px;
 }
 li{
     list-style: none;
@@ -32,9 +69,18 @@ h3{
 .photos{
     display: flex;
     justify-content: space-around;
+    margin-right: 90 px;
+    margin-left: 90px;
 }
 .body2{
     background-color: #E5E7EB;
+    height: 200px;
+}
+.body2 p{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 90px;
+    margin-left: 90px;
 }
 .body3{
     background-color: white;
